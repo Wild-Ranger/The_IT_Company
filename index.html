@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The IT Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.svg"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Startups</a></li>
+            <li><a href="#">Let's Talk</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>We are a Modern IT Company</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      </div>
+    </section>
+
+    <section class="second_slide">
+
+<!-- Engineering Impact -->
+      <div class="first_slide">
+        <div class="impact">
+          <h1>Engineering Impact</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <img src="images/image2.png" alt="Computer Systems image.">
+      </div>
+
+<!-- Leadership Team Board -->
+      <h2>Leadership Team.</h2>
+      <div class="card_store">
+
+        <div class="card">
+          <img src="images/Rectangle52.png" alt="Founder" style="width:300px">
+          <div class="container">
+            <h4><b>Name</b></h4>
+            <p>Ceo, Founder</p>
+            <p>Linkdin</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Rectangle52-1.png" alt="Founder" style="width:300px">
+          <div class="container">
+            <h4><b>Name</b></h4>
+            <p>Ceo, Founder</p>
+            <p>Linkdin</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Rectangle52-2.png" alt="Founder" style="width:300px">
+          <div class="container">
+            <h4><b>Name</b></h4>
+            <p>Ceo, Founder</p>
+            <p>Linkdin</p>
+          </div>
+        </div>
+
+      </div>
+
+  <!-- Our People block -->
+      <div class="third_slide">
+        <h3>Our People</h3>
+        <div class="People_pic">
+          <img src="images/Rectangle 53.png">
+          <img src="images/Rectangle 54.png">
+        </div>
+      </div>
+
+      <!-- touch with us -->
+      <div class="fourth_slide">
+        <h4>Feel Free to get in touch with us</h4>
+        <div class="container">
+          <div class="wrap">
+            <p>If you have an idea let's discuss it. Just drop us an email or call and we'll find a suitable time for a meeting.</p>
+
+            <div class="input_div">
+              <input type="text" class="input" placeholder="Your Email or phone">
+            </div>
+            <button type="button" class="button">Contant Me -></button>
+          </div>
+
+          <img src="images/Group 69.svg" alt="Avatar">
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="left-col">
+          <h2>The IT Company</h2>
+          <p>Follow us at</p>
+          <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="right-col">
+          <div class="get">
+            <p>Get In Touch</p>
+            <ul>
+              <li>Email@Email.com</li>
+              <li>9560289565</li>
+            </ul>
+          </div>
+
+          <div class="explore">
+            <p>Explore</p>
+            <ul>
+              <li>Home</li>
+              <li>Work</li>
+              <li>Services</li>
+              <li>About</li>
+              <li>Contact</li>
+            </ul>
+            <p>Loremipsum address</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="line">
+        <hr>
+        <p>Made with <span class="heart"> &#10084; </span> By a Designer</p>
+      </div>
+    </footer>
+
+
+  </body>
+
+  <!-- JavaScript for Toggle Menu... -->
+    <script>
+
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+
+</html>
